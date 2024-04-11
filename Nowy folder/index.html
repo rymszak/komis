@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js" defer></script>
+    <title>autokomis</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <header><h1><b>Autokomis</b></h1></header>
+<main>
+    <fieldset>
+        <legend>Dane samochodu:</legend>
+       <label for="mark"> Marka samochodu <select name="mark" id="mark" >
+            <option value=""></option>
+           <option value="opel">opel</option>
+           <option value="mazda">mazda</option>
+           <option value="bmw">bmw</option>
+           <option value="volvo">volvo</option>
+       </select>
+    </label>
+        <label for="model" >Model samochodu <input type="text" placeholder="np. CX 5" id="model"></label>
+
+      <label for="year" > Rok produkcji <input type="month" id="year"><br></label>
+
+        <label for="kolor" >Kolor <input type="text" id="kolor" placeholder="np. SPRING BLUE"></label>
+
+        <label for="przeb"> Przebieg: <input type="text" id="przeb"> tyś. km<br> </label>
+ </fieldset>
+ <div class="przyc">
+       <button id="add">Dodaj samochód</button>
+       <button id="search">Szukaj samochodu</button>
+       <button id="view">Wyswietl wszystkie</button>
+  </div>
+
+
+</main>
+<section>
+    <div id="display">
+        <!-- <div class="element">
+            <div> 
+                <h3>marka</h3>
+                <p>model:, kolor:, rok produkcji:, przebieg:</p>
+            </div>
+            <button>usuń</button>
+        </div>
+        <div class="element">
+            <div> 
+                <h3>marka</h3>
+                <p>model:, kolor:, rok produkcji:, przebieg:</p>
+            </div>
+            <button>usuń</button>
+        </div>
+        <div class="element">
+            <div> 
+                <h3>marka</h3>
+                <p>model:, kolor:, rok produkcji:, przebieg:</p>
+            </div>
+            <button>usuń</button>
+        </div>
+        <div class="element">
+            <div> 
+                <h3>marka</h3>
+                <p>model:, kolor:, rok produkcji:, przebieg:</p>
+            </div>
+            <button>usuń</button>
+        </div> -->
+    </div>
+</section>
+  
+    <footer>&copy Me</footer>
+    </div>
+</body>
